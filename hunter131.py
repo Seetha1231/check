@@ -24,3 +24,7 @@ def altsort():
 			l[i]=m
 			c=0
 	print(l)
+try:
+	altsort()
+except:
+	print('invalid')
