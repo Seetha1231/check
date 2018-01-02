@@ -4,3 +4,7 @@ def sumascii():
 	for i in s:
 		sum+=ord(i)
 	print(sum)
+try:
+	sumascii()
+except:
+	print('invalid')
