@@ -10,3 +10,7 @@ def main():
 	for i in range(n):
 		l.append(int(input()))
 	print(repeat(l))
+try:
+	main()
+except:
+	print('invalid')
