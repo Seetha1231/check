@@ -10,4 +10,8 @@ def oddeven():
 		elif i%2!=0 and l[i]%2==0:
 			o.append(l[i])
 	print(o)
+try:
+	oddeven()
+except:
+	print('invalid')
   
