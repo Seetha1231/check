@@ -17,3 +17,7 @@ def subset():
 		print('No')
 	else :
 		print('Yes')
+try:
+	subset()
+except:
+	print('invalid')
