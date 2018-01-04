@@ -7,3 +7,7 @@ def rever():
 	for i in range(len(l)):
 		s+=l[i][::-1]+' '
 	print(s)
+try:
+	rever()
+except:
+	print('invalid')
