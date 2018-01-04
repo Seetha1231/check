@@ -12,6 +12,6 @@ def f():
 			c=c+1
 	print(c)
 try:
-  f()
+	f()
 except:
-  print('invalid')
+	print('invalid')
