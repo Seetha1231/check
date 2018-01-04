@@ -13,3 +13,7 @@ def coprime():
 		print('Yes')
 	else :
 		print('No')
+try:
+	coprime()
+except:
+	print('Invalid')
