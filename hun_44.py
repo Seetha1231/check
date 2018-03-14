@@ -1,6 +1,6 @@
 def find(n):
     l=[]
-    for i in range(1000):
+    for i in range(10000):
         l.append("")
     l[0]=""
     size,m=1,1
@@ -16,8 +16,6 @@ def find(n):
     print(l[n])
 def main():
     n=int(input('Enter n :'))
-    for i in range(1,n+1):
-        find(i)
-
+    find(n)
 if __name__ == '__main__':
     main()
