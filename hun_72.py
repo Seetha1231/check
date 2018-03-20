@@ -13,7 +13,7 @@ def main():
     for i in range(0,len(l),2):
         s=l[i]
         l[i]=s[::-1]
-    print(l)
+    print(*l)
 
 
 
